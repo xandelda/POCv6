@@ -1,0 +1,237 @@
+<resources>
+    <string name="app_name">Voto sem Venda</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_maps">Mapa</string>
+
+
+    <!-- ESTADOS -->
+    <string-array name="country_names">
+        <item>  Acre</item>
+        <item>  Alagoas</item>
+        <item>  Amapá</item>
+        <item>  Amazonas</item>
+        <item>  Bahia</item>
+        <item>  Ceará</item>
+        <item>  Distrito Federal</item>
+        <item>  Espírito Santo</item>
+        <item>  Goiás</item>
+        <item>  Maranhão</item>
+        <item>  Mato Grosso</item>
+        <item>  Mato Grosso do Sul</item>
+        <item>  Minas Gerais</item>
+        <item>  Pará</item>
+        <item>  Paraíba</item>
+        <item>  Paraná</item>
+        <item>  Pernambuco</item>
+        <item>  Piauí</item>
+        <item>  Rio de Janeiro</item>
+        <item>  Rio Grande do Norte</item>
+        <item>  Rio Grande do Sul</item>
+        <item>  Rondônia</item>
+        <item>  Roraima</item>
+        <item>  Santa Catarina</item>
+        <item>  São Paulo</item>
+        <item>  Sergipe</item>
+        <item>  Tocantins</item>
+    </string-array>
+
+    <string-array name="country_codes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+    </string-array>
+
+    <string-array name="country_flags">
+        <item>@drawable/acre</item>
+        <item>@drawable/alagoas</item>
+        <item>@drawable/amapa</item>
+        <item>@drawable/amazonas</item>
+        <item>@drawable/bahia</item>
+        <item>@drawable/ceara</item>
+        <item>@drawable/distrito_federal</item>
+        <item>@drawable/espirito_santo</item>
+        <item>@drawable/goias</item>
+        <item>@drawable/maranhao</item>
+        <item>@drawable/mato_grosso</item>
+        <item>@drawable/mato_grosso_do_sul</item>
+        <item>@drawable/minas_gerais</item>
+        <item>@drawable/para</item>
+        <item>@drawable/paraiba</item>
+        <item>@drawable/parana</item>
+        <item>@drawable/pernambuco</item>
+        <item>@drawable/piaui</item>
+        <item>@drawable/rio_de_janeiro</item>
+        <item>@drawable/rio_grande_do_nort</item>
+        <item>@drawable/rio_grande_do_sul</item>
+        <item>@drawable/rondonia</item>
+        <item>@drawable/roraima</item>
+        <item>@drawable/santa_catarina</item>
+        <item>@drawable/sao_paulo</item>
+        <item>@drawable/sergipe</item>
+        <item>@drawable/tocantins</item>
+    </string-array>
+
+
+    <!-- PARTIDOS-->
+
+    <string-array name="partidos_names">
+        <item>  DEM</item>
+        <item>  NOVO</item>
+        <item>  PC do B</item>
+        <item>  PCB</item>
+        <item>  PCO</item>
+        <item>  PDT</item>
+        <item>  PEN</item>
+        <item>  PHS</item>
+        <item>  PMB</item>
+        <item>  PMDB</item>
+        <item>  PMN</item>
+        <item>  PP</item>
+        <item>  PPL</item>
+        <item>  PPS</item>
+        <item>  PR</item>
+        <item>  PRB</item>
+        <item>  PROS</item>
+        <item>  PRP</item>
+        <item>  PRTB</item>
+        <item>  PSB</item>
+        <item>  PSC</item>
+        <item>  PSD</item>
+        <item>  PSDB</item>
+        <item>  PSDC</item>
+        <item>  PSL</item>
+        <item>  PSOL</item>
+        <item>  PSTU</item>
+        <item>  PT</item>
+        <item>  PT do B</item>
+        <item>  PTB</item>
+        <item>  PTC</item>
+        <item>  PTN</item>
+        <item>  PV</item>
+        <item>  REDE</item>
+        <item>  SOLIDARIEDADE</item>
+    </string-array>
+
+    <string-array name="partidos_codes">
+        <item>25</item>
+        <item>30</item>
+        <item>65</item>
+        <item>21</item>
+        <item>29</item>
+        <item>12</item>
+        <item>51</item>
+        <item>31</item>
+        <item>35</item>
+        <item>15</item>
+        <item>33</item>
+        <item>11</item>
+        <item>54</item>
+        <item>23</item>
+        <item>22</item>
+        <item>10</item>
+        <item>90</item>
+        <item>44</item>
+        <item>28</item>
+        <item>40</item>
+        <item>20</item>
+        <item>55</item>
+        <item>45</item>
+        <item>27</item>
+        <item>17</item>
+        <item>50</item>
+        <item>16</item>
+        <item>13</item>
+        <item>70</item>
+        <item>14</item>
+        <item>36</item>
+        <item>19</item>
+        <item>43</item>
+        <item>18</item>
+        <item>77</item>
+    </string-array>
+
+    <string-array name="partidos_flags">
+        <item>@drawable/dem</item>
+        <item>@drawable/novo</item>
+        <item>@drawable/pc_do_b</item>
+        <item>@drawable/pcb</item>
+        <item>@drawable/pco</item>
+        <item>@drawable/pdt</item>
+        <item>@drawable/pen</item>
+        <item>@drawable/phs</item>
+        <item>@drawable/pmb</item>
+        <item>@drawable/pmdb</item>
+        <item>@drawable/pmn</item>
+        <item>@drawable/pp</item>
+        <item>@drawable/ppl</item>
+        <item>@drawable/pps</item>
+        <item>@drawable/pr</item>
+        <item>@drawable/prb</item>
+        <item>@drawable/pros</item>
+        <item>@drawable/prp</item>
+        <item>@drawable/prtb</item>
+        <item>@drawable/psb</item>
+        <item>@drawable/psc</item>
+        <item>@drawable/psd</item>
+        <item>@drawable/psdb</item>
+        <item>@drawable/psdc</item>
+        <item>@drawable/psl</item>
+        <item>@drawable/psol</item>
+        <item>@drawable/pstu</item>
+        <item>@drawable/pt</item>
+        <item>@drawable/pt_do_b</item>
+        <item>@drawable/ptb</item>
+        <item>@drawable/ptc</item>
+        <item>@drawable/ptn</item>
+        <item>@drawable/pv</item>
+        <item>@drawable/rede</item>
+        <item>@drawable/sd</item>
+
+    </string-array>
+
+
+    <!-- CARGOS-->
+
+    <string-array name="cargo_names">
+        <item>  Vereador (a)</item>
+        <item>  Prefeito (a)</item>
+    </string-array>
+
+    <string-array name="cargo_codes">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="cargo_flags">
+        <item>@drawable/v</item>
+        <item>@drawable/p</item>
+    </string-array>
+    <string name="title_activity_tipo_objeto">TipoObjetoActivity</string>
+    <string name="title_activity_quem_somos">QuemSomosActivity</string>
+
+
+</resources>

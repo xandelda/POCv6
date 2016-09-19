@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="poc.com.br.pocv6.MainActivity"
+    android:background="@drawable/back7"
+    android:orientation="vertical"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\n Bem Vindo"
+                android:id="@+id/textView10"
+                android:drawableLeft="@mipmap/emoticon"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Seja mais um a exercer a democracia. Com suas informações podemos mudar a &quot;cara&quot; da política brasileira."
+                android:id="@+id/textView9"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="@dimen/fab_margin"
+                android:layout_gravity="center"
+                android:textStyle="italic"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Junte-se a nós!"
+                android:drawableLeft="@mipmap/user2"
+                android:id="@+id/btJuntese"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="normal|bold"
+                android:background="@drawable/back_button_juntasse"
+                android:textColor="@color/colorWhite"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Feed - Dados que coletamos"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@mipmap/colet"
+                android:id="@+id/btFeedEntrada"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/back_button_juntasse"
+                android:textStyle="normal|bold"
+                android:textColor="@color/colorWhite"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/back_button_juntasse"
+                android:text="Quem Somos"
+                android:drawableLeft="@mipmap/somos"
+                android:id="@+id/btQuemSomos"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="normal|bold"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

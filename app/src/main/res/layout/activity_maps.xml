@@ -1,0 +1,68 @@
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <fragment
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="poc.com.br.pocv6.MapsActivity" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:background="@color/wallet_dim_foreground_disabled_holo_dark"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btMaps"
+                android:layout_margin="5dp"
+                android:text=" Conferir  "
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/back_button_maps"
+                android:drawableLeft="@mipmap/maps_confirm"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/back_confirm_maps"
+                android:text="Escolher  "
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:drawableLeft="@mipmap/confirm3"
+                android:id="@+id/btMapsConfirm"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/info"
+                android:layout_margin="5dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/btInfoMaps"
+                android:textStyle="italic|bold"
+
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+</AbsoluteLayout>
+
+

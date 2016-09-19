@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- botão pressionado -->
+    <item android:drawable="@color/colorProcessMaps" android:state_pressed="true"/>
+
+    <!-- focado -->
+    <item android:drawable="@color/colorFocusMaps" android:state_focused="true"/>
+
+    <!-- padrão -->
+    <item android:drawable="@color/colorDefaultMaps"/>
+
+</selector>
